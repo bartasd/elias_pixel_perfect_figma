@@ -42,5 +42,6 @@
     .pic{
         width: calc(1024px - 519px);
         background-color: green;
+        position: relative;
     }
 }

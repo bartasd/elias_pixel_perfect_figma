@@ -1,0 +1,13 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(var(--cols), min-content);
+    gap: 16px;
+    width: max-content;
+}
+
+.dot {
+    width: 4px;
+    height: 4px;
+    background-color: gray;
+    border-radius: 2px;
+}
