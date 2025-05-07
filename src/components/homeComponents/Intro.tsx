@@ -1,6 +1,7 @@
 import style from "./Intro.module.css";
 import Dots from "../Dots";
 import logo from '../../assets/Style=Outline.svg';
+import image from '../../assets/Image.png';
 
 export default function Intro(){
     return (<div className={style.intro}>
@@ -11,14 +12,15 @@ export default function Intro(){
         </div>
         <div className={style.pic}>
             {/* NEEDS REARRANGING */}
-            <Dots w={5} h={5} />
-            <img src="#" alt="elias" />
-            <img src={logo} alt="logo" />
-            <div className={style.currWork}>
-                <div className={style.cubic}></div>
-                Currently working on Portfolio
+            <Dots w={5} h={5} bottom={93} right={16} />
+            <img className={style.logo} src={logo} alt="logo" />
+            <div className={style.cont}>
+                <img className={style.elias} src={image} alt="elias" />
+                <div className={style.currWork}>
+                    <div className={style.cubic}></div>
+                    <p>Currently working on <span>Portfolio</span></p>
+                </div>
             </div>
-
         </div>
     </div>);
 }

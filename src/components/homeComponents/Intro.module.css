@@ -41,7 +41,47 @@
     }
     .pic{
         width: calc(1024px - 519px);
-        background-color: green;
         position: relative;
+        .cont{
+            position: absolute;
+            right: 0;
+            display: flex;
+            flex-direction: column;
+        }
+        .elias{
+            height: 386px;
+            z-index: 2;
+        }
+        .logo{
+            position: absolute;
+            left: 29px;
+            top: 86px;
+            width: 155px;
+            z-index: 1;
+        }
+
+        .currWork{
+            font-family: 'Fira Code', monospace;
+            font-weight: normal;
+            width: 400px;
+            height: 35px;
+            display: flex;
+            align-items: center;
+            border: 1px solid gray;
+            margin-left: 19px;
+            .cubic{
+                width: 16px;
+                height: 16px;
+                background-color: #C778DD;
+                margin-left: 8px;
+            }
+            p{
+                margin-left: 10px;
+                color: gray;
+                span{
+                    color: white;
+                }
+            }
+        }
     }
 }
