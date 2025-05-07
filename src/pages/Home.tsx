@@ -1,3 +1,9 @@
+import Intro from "../components/homeComponents/Intro";
+
 export default function Home(){
-    return (<>HOME</>);
+    return (
+        <>
+            <Intro />
+        </>
+    );
 }
