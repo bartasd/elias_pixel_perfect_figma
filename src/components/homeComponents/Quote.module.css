@@ -1,0 +1,43 @@
+.cont{
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+    background-color: #282C33;
+}
+
+.quote, .author{
+    font-family: 'Fira Code', monospace;
+    font-weight: normal;
+    font-size: 24px;
+    border: 1px solid gray;
+    color: white;
+    position: relative;
+}
+
+.quote{
+    padding: 32px;
+    align-self: flex-start;
+}
+
+.cont > p > img{
+    position: absolute;
+    padding: 4px 8px; 
+    width: 20.7px;
+    background-color: #282C33;
+}
+
+.quote > img {
+    left: calc(-32px + 40px);
+    top: calc(-32px + 18px);
+}
+
+.author > img {
+    right: calc(-32px + 40px);
+    top: calc(-32px + 18px);
+}
+
+.author{
+    padding: 16px;
+    align-self: flex-end;
+    border-top: none;
+}

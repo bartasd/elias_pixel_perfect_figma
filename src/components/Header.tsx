@@ -5,7 +5,7 @@ import logo from '../assets/Style=Default.svg';
 export default function Header(){
 
     const location = useLocation();
-    const pages = ['home', 'works', 'about-me', 'contacts'];
+    const pages = ['home', 'projects', 'about-me', 'contacts'];
 
     return (
         <div className={style.header}>

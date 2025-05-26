@@ -2,6 +2,6 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: grey;
+    background-color: #282C33;
     min-height: 100vh;
 }

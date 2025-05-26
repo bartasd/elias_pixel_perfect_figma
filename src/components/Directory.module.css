@@ -1,0 +1,21 @@
+.cont{
+    width: 1024px;
+    color: white;
+    font-family: 'Fira Code', monospace;
+    font-weight: normal;
+    margin-top: 60px;
+}
+
+.cont > h1{
+    line-height: 42px;
+    font-size: 32px;
+}
+
+.cont > h1 > span{
+    color: #C778DD;
+}
+
+.cont > p{
+    font-size: 16px;
+}
+
