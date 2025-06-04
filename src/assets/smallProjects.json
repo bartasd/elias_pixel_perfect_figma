@@ -1,0 +1,58 @@
+[
+    {
+       "title": ["Discord.js", "TS", "JS"],
+       "title2": "Bot boilerplate",
+       "desc": "Start creating scalable discord.js bot with typescript in seconds",
+       "linkName": "Github",
+       "link": "https://www.google.lt"
+    },
+    {
+       "title": ["VUE", "CSS", "JS"],
+       "title2": "My blog",
+       "desc": "Front-end of my future blog website written in vue",
+       "linkName": "Github",
+       "link": "https://www.google.lt"
+    },
+        {
+       "title": ["Figma"],
+       "title2": "Chess pro",
+       "desc": "Figma landing page about service for viewing chess tournaments",
+       "linkName": "Figma",
+       "link": "https://www.google.lt"
+    },
+        {
+       "title": ["Figma"],
+       "title2": "Crash protect website",
+       "desc": "Figma template for website about anti-raid, anti-crash discord bot",
+       "linkName": "Figma",
+       "link": "https://www.google.lt"
+    },
+        {
+       "title": ["HTML", "CSS"],
+       "title2": "CSS expirements",
+       "desc": "Collection of my different little projects in css",
+       "linkName": "Live",
+       "link": "https://www.google.lt"
+    },
+        {
+       "title": ["Lua", "NeoVim"],
+       "title2": "Web Dev nvim config",
+       "desc": "Config for neovim perfect for web developer",
+       "linkName": "Github",
+       "link": "https://www.google.lt"
+    },
+        {
+       "title": ["Python", "Quart", "HTML"],
+       "title2": "Ooku",
+       "desc": "Simple link shortener with auth",
+       "linkName": "Live",
+       "link": "https://www.google.lt"
+    },
+        {
+       "title": ["Figma"],
+       "title2": "School website",
+       "desc": "Figma template website for my school",
+       "linkName": "Figma",
+       "link": "https://www.google.lt"
+    }
+]

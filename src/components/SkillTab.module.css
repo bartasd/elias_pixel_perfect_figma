@@ -1,0 +1,68 @@
+.tab{
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    border: 1px solid grey;
+}
+
+.picture{
+    height: 200px;
+    border-bottom: 1px solid grey;
+}
+
+.languages {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 8px;
+    border-bottom: 1px solid grey;
+}
+
+.languages > p{
+    line-height: 37px;
+    color: grey;
+    font-size: 21px;
+    font-family: 'Fira Code', monospace;
+    font-weight: normal;
+}
+
+.info > h1{
+    font-family: 'Fira Code', monospace;
+    font-weight: normal;
+    font-size: 24px;
+    color: white;
+    margin-left: 16px;
+    margin-top: 16px;
+}
+
+.info > p{
+    font-family: 'Fira Code', monospace;
+    font-weight: 400;
+    font-size: 16px;
+    color: grey;
+    margin-left: 16px;
+    margin-top: 16px;
+}
+
+.info > a{
+    text-decoration: none; 
+    color: white;
+    width: 146px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #C778DD;
+    font-family: 'Fira Code', monospace;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-bottom: 16px;
+}
+
+.info > a:hover{
+    color: white;
+    cursor: pointer;
+    background-color: #C778DDCC;
+}

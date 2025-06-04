@@ -1,0 +1,60 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    border: 1px solid grey;
+}
+
+.title{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    font-size: 16px;
+    font-family: 'Fira Code', monospace;
+    line-height: 40px;
+    border-bottom: 1px solid grey;
+    padding-left: 8px;
+}
+
+.title2{
+    font-size: 24px;
+    font-family: 'Fira Code', monospace;
+    font-weight: bold;
+    line-height: 40px;
+    padding-left: 16px;
+    padding-top: 16px;
+}
+
+.desc{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Fira Code', monospace;
+    padding-left: 16px;
+    padding-top: 16px;
+}
+
+.card > a{
+    text-decoration: none; 
+    color: white;
+    width: 146px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #C778DD;
+    font-family: 'Fira Code', monospace;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-bottom: 16px;
+}
+
+.card > a:hover{
+    color: white;
+    cursor: pointer;
+    background-color: #C778DDCC;
+}

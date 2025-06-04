@@ -1,0 +1,37 @@
+[
+  {
+    "logo": "src/assets/Rectangle_22.jpg",
+    "langs" : ["HTML", "CSS", "Python", "Flask"],
+    "name" : "ChertNodes",
+    "expl" : "Minecraft servers hosting",
+    "live": "https://www.google.lt"
+  },
+    {
+    "logo": "src/assets/Rectangle_221.png",
+    "langs" : ["React", "Express", "Discord.js", "Node.js", "HTML", "SCSS", "Python", "Flask"],
+    "name" : "ProtectX",
+    "expl" : "Discord anti-crash bot",
+    "live": "https://www.google.lt"
+  },
+    {
+    "logo": "src/assets/Rectangle_222.png",
+    "langs" : ["CSS", "Express", "Node.js"],
+    "name" : "Kahoot Answers Viewer",
+    "expl" : "Get answers to your kahoot quiz",
+    "live": "https://www.google.lt"
+  },
+    {
+    "logo": "src/assets/Rectangle_223.png",
+    "langs" : ["HTML", "CSS", "JS"],
+    "name" : "Kotik Bot",
+    "expl" : "Multi-functional discord bot",
+    "live": "https://www.google.lt"
+  },
+    {
+    "logo": "src/assets/Rectangle_224.png",
+    "langs" : ["Vue", "TS", "Less"],
+    "name" : "Portfolio",
+    "expl" : "You're using it right now",
+    "live": "https://www.google.lt"
+  }
+]
