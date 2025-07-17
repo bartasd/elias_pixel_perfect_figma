@@ -3,10 +3,10 @@ import style from "./Dots.module.css";
 interface DotsProps {
     w: number;
     h: number;
-    top?: number;
-    right?: number;
-    bottom?: number;
-    left?: number;
+    top?: number | string;
+    right?: number | string;
+    bottom?: number | string;
+    left?: number | string;
 }
 
 export default function Dots({ w, h, top, right, bottom, left }: DotsProps) {

@@ -14,7 +14,10 @@ type CardProps = {
 
 export default function SkillTab({data} : CardProps){
     return (
-        <div className={style.card}>
+        <div 
+        className={style.card}
+        style={{ width: (data.title2 ? 330 : 190) + "px" }}
+        >
             <h1
             className={style.title}
             style={{ fontWeight: data.title2 ? 'normal' : 'bold' }}
@@ -22,7 +25,7 @@ export default function SkillTab({data} : CardProps){
                 {typeof data.title === 'string' ? (data.title) : (data.title.map((t: string, i: number) => <span key={i}>{t}</span>))}
             </h1>
             { data.title2 && (<h1 className={style.title2}>{data.title2}</h1>)}
-            <p className={style.desc}>
+            <p className={style.desc} >
             {typeof data.desc === 'string' ?
                 data.desc
                 : 

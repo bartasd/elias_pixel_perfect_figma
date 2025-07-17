@@ -1,7 +1,6 @@
 .card{
     display: flex;
     flex-direction: column;
-    width: 330px;
     border: 1px solid grey;
 }
 
@@ -34,6 +33,7 @@
     font-family: 'Fira Code', monospace;
     padding-left: 16px;
     padding-top: 16px;
+    margin-bottom: 16px;
 }
 
 .card > a{
@@ -48,7 +48,6 @@
     font-family: 'Fira Code', monospace;
     font-weight: 600;
     font-size: 16px;
-    margin-top: 16px;
     margin-left: 16px;
     margin-bottom: 16px;
 }

@@ -1,0 +1,21 @@
+.media {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    width: 1024px;
+    margin-top: 62px;
+}
+
+.mediaLine {
+    display: flex;
+    align-items: center; 
+    gap: 0.25rem; 
+    color: gray;
+    text-decoration: none;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}

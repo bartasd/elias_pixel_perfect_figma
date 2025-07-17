@@ -1,0 +1,36 @@
+.facts{
+    background-color: #282C33;
+    width: 1024px;
+    margin-top: 62px;
+    display: flex;
+    .desc{
+        width: 60%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        font-weight: 400;
+        font-size: 16px;
+        font-family: 'Fira Code', monospace;
+        color: gray;
+        span{
+            color: white;
+        }
+        gap: 10px;
+        p{
+            border: 1px solid gray;
+            padding: 5px;
+        }
+
+    }
+    .cont{
+        width: 40%;
+        position: relative;
+        .logo{
+            position: absolute;
+            right: 13%;
+            bottom: 13%;
+            width: 113px;
+            z-index: 1;
+        }
+    }
+}

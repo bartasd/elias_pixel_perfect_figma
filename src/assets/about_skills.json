@@ -1,0 +1,22 @@
+[
+  {
+    "title": ["Languages"],
+    "desc": ["TypeScript", "Lua", "Python", "JavaScript"]
+  },
+  {
+    "title": ["Other"],
+    "desc": ["HTML", "CSS", "EJS", "SCSS", "REST", "Jinja"]
+  },
+  {
+    "title": ["Tools"],
+    "desc": ["VSCode", "Neovim", "Linux", "Figma", "XFCE", "Arch", "Git", "Font Awesome", "KDE", "fish"]
+  },
+  {
+    "title": ["Databases"],
+    "desc": ["SQLite", "PostgreSQL", "Mongo"]
+  },
+  {
+    "title": ["Frameworks"],
+    "desc": ["React", "Vue", "Dismake", "Discord.js", "Flask", "Express.js"]
+  }
+]

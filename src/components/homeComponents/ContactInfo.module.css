@@ -1,0 +1,23 @@
+.contactInfo{
+    background-color: #282C33;
+    width: 1024px;
+    margin-top: 62px;
+    display: flex;
+    .text{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        font-weight: 400;
+        font-size: 16px;
+        font-family: 'Fira Code', monospace;
+        color: gray;
+        line-height: 24px;
+    }
+    .cont{
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+    }
+}
