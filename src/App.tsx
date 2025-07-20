@@ -18,11 +18,11 @@ function App(): JSX.Element {
     <Router>
       <Header />
       <Routes>
-        <Route index path="/elias_pixel_perfect_figma" element={<Navigate to="/home" replace />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/about-me" element={<About />} />
-        <Route path="/contacts" element={<Contacts />} />
+        <Route index path="/elias_pixel_perfect_figma" element={<Navigate to="/elias_pixel_perfect_figma/home" replace />} />
+        <Route path="/elias_pixel_perfect_figma/home" element={<Home />} />
+        <Route path="/elias_pixel_perfect_figma/projects" element={<Projects />} />
+        <Route path="/elias_pixel_perfect_figma/about-me" element={<About />} />
+        <Route path="/elias_pixel_perfect_figma/contacts" element={<Contacts />} />
       </Routes>
       <Footer />
     </Router>

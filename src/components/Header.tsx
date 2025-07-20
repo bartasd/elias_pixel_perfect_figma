@@ -19,8 +19,8 @@ export default function Header(){
                 {pages.map((page) => (
                     <Link
                     key={page}
-                    to={`/${page}`}
-                    className={location.pathname === `/${page}` ? style.active : ''}
+                    to={`elias_pixel_perfect_figma/${page}`}
+                    className={location.pathname === `elias_pixel_perfect_figma/${page}` ? style.active : ''}
                     >
                     <span>#</span>{page}
                     </Link>
