@@ -18,7 +18,7 @@ function App(): JSX.Element {
     <Router>
       <Header />
       <Routes>
-        <Route path="/" element={<Navigate to="/home" replace />} />
+        <Route index path="/elias_pixel_perfect_figma" element={<Navigate to="/home" replace />} />
         <Route path="/home" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/about-me" element={<About />} />
