@@ -2,7 +2,7 @@ import Directory from "../components/Directory";
 import Markup from "../components/Markup";
 import SkillTab from "../components/SkillTab";
 import WrapContainer from "../components/WrapContainer";
-import skills from '../assets/skills.json';
+import { skills } from "../assets/skills";
 import smallProjects from '../assets/smallProjects.json';
 import Card from "../components/Card";
 

@@ -3,7 +3,7 @@ import Quote from "../components/homeComponents/Quote";
 import Markup from "../components/Markup";
 import SkillTab from "../components/SkillTab";
 import WrapContainer from "../components/WrapContainer";
-import skills from '../assets/skills.json';
+import { skills } from "../assets/skills";
 
 export default function Home(){
     return (
